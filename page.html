@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>中秋博饼</title>
-    <link rel ='stylesheet' href="embellish.css">
     <script src="script.js"></script>
+    <link rel ='stylesheet' href="embellish.css">
 </head>
 <body>
 <div class="mainPage" >
@@ -15,27 +15,118 @@
         <button id="present">设置礼物</button>
     </div>
 </div>
-
 <div class="setNumPage">
-    <img src="resources/主界面背景.png"/>
+    <img src="resources/主界面背景.png" />
     <div class="elements">
-        <input type="text" id="number" value="" placeholder="请输入玩家人数(<=12人)"/>
-        <button id="enter">下一步</button>
+        <input type="text" id="number" value="" placeholder="请输入玩家人数(<12人)"/>
+        <button id="enter">开始游戏</button>
         <button id="clear">清除数据</button>
-        <button id="backToMain">返回</button>
+        <button id="backToMain"></button>
     </div>
 </div>
-<!--  奖品设置界面  -->
 <div class="setPresentPage">
     <img src="resources/主界面背景.png" />
     <div class="elements">
-        <button id="backToMain2">返回</button>
+        <button id="backToMain2"></button>
     </div>
+</div>
+<div class="playPage">
+    <img id="playBackground" src="resources/游戏背景.jpg"/>
+    <img id="playerBG" src="resources/成员背景.png" height="1031*0.7" width="930*0.7"/>
+    <img id="sheep" src="resources/羊.png" height="266" width="344"/>
+    <button id="backToSet"></button>
+<!--    <img id="" src="resources/返回.png" height="182" width="221"/>-->
+    <p id="member">房间成员</p>
+    <div class="playerInRoom">
+        <p id="player1">玩家1</p>
+        <p id="player2">玩家2</p>
+        <p id="player3">玩家3</p>
+        <p id="player4">玩家4</p>
+        <p id="player5">玩家5</p>
+        <p id="player6">玩家6</p>
+        <p id="player7">玩家7</p>
+        <p id="player8">玩家8</p>
+        <p id="player9">玩家9</p>
+        <p id="player10">玩家10</p>
+        <p id="player11">玩家11</p>
+        <p id="player12">玩家12</p>
+    </div>
+
+    <!--  碗  -->
+    <img id="bowlF" src="resources/碗正.png" height="339" width="550"/>
+    <!--骰子-->
+    <div class="dices">
+        <img src="resources/1.png" height="80" width="80"/>
+        <img src="resources/2.png" height="80" width="80"/>
+        <img src="resources/3.png" height="85" width="85"/>
+        <img src="resources/4.png" height="80" width="80"/>
+        <img src="resources/5.png" height="80" width="80"/>
+        <img src="resources/6.png" height="80" width="80"/>
+    </div>
+
+    <!--  等待界面  -->
+    <div class="waiting">
+        <!--    开始按钮    -->
+        <button id="goToPlay"></button>
+<!--        <img  id="" src="resources/开始.png" height="250" width="250"/>-->
+    </div>
+    <!--  游戏进行  -->
+    <div class="playing">
+        <p id="state">现在轮到</p>
+        <p id="who">大胃王汤姆树</p>           <!--当前玩家名-->
+        <button id="clickToPlay">投骰子！</button>
+        <div class="afterRoll">         <!--摇后-->
+            <!--   下一位按钮   -->
+            <button id="nextPlayer">下一位</button>
+
+            <!--  碗上  -->
+            <img id="bowlU" src="resources/碗上.png" height="867" width="954"/>
+
+            <!-- 骰子结果 -->
+            <img id="d01" src="resources/1.png" height="100" width="100"/>
+            <img id="d02" src="resources/2.png" height="100" width="100"/>
+            <img id="d03" src="resources/3.png" height="120" width="120"/>
+            <img id="d04" src="resources/4.png" height="100" width="100"/>
+            <img id="d05" src="resources/5.png" height="110" width="110"/>
+            <img id="d06" src="resources/6.png" height="100" width="100"/>
+
+            <!--标签提示结果-->
+            <p id="showResult">状元！</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="resultPage">
+    <img src="resources/结算背景.png" height="1365" width="2184"/>
+    <p id="background" ></p>
+    <p id="gameover" >游戏结束</p>
+    <div class="btn">
+        <button id="again">再来一局!</button>
+        <button id="back"/>退出房间</button>
+    </div>
+    <div class="player">
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+        <p id="p4"></p>
+        <p id="p5"></p>
+        <p id="p6"></p>
+        <p id="p7"></p>
+        <p id="p8"></p>
+        <p id="p9"></p>
+        <p id="p10"></p>
+        <p id="p11"></p>
+        <p id="p12"></p>
+    </div>
+
 </div>
 <div class="rulesPage" >
     <img src="resources/规则界面背景.jpg" />
     <img id="myRule" src="resources/规则.jpg" height="1327" width="1379"/>
-    <button id="ret">返回</button>
+    <button id="ret"></button>
 </div>
 </body>
 </html>
