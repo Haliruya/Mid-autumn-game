@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>中秋博饼</title>
+<<<<<<< HEAD
     <link rel ='stylesheet' href="interface.css">
     <script src="../JS/test4.js"></script> 
 
@@ -11,12 +12,23 @@
 
 <div class="mainPage" >
     <img src="../source/主界面背景.png" />
+=======
+    <link rel ='stylesheet' href="embellish.css">
+    <script src="script.js"></script>
+    <meta name="referrer" content="no-referrer" />
+</head>
+<body >
+<div class="mainPage" >
+    <img src="resources/主界面背景.png" />
+    <p>中秋博饼 </p>
+>>>>>>> 3967636 (4.0)
     <div class="btn">
         <button id="start">开始游戏</button>
         <button id="rule">游戏规则</button>
         <button id="present">设置礼物</button>
     </div>
 </div>
+<<<<<<< HEAD
 
 <div class="setNumPage">
     <img src="../source/主界面背景.png" />
@@ -25,13 +37,27 @@
         <button id="enter">下一步</button>
         <button id="clear">清除数据</button>
         <button id="backToMain">返回</button>
+=======
+<div class="setNumPage">
+    <img src="resources/主界面背景.png" />
+    <div class="elements">
+        <input type="text" id="number" value="" placeholder="请输入玩家人数(<=12人)"/>
+        <button id="enter">下一步</button>
+        <button id="backToMain"></button>
+>>>>>>> 3967636 (4.0)
     </div>
 </div>
 <!--  奖品设置界面  -->
 <div class="setPresentPage">
+<<<<<<< HEAD
     <img src="../source/主界面背景.png" />
     <div class="elements">
         <button id="backToMain2">返回</button>
+=======
+    <img src="resources/主界面背景.png" />
+    <div class="elements">
+        <button id="backToMain2"></button>
+>>>>>>> 3967636 (4.0)
     </div>
     <p id="presenttip">奖品数量是1~99哦</p>
     <div class="awardName">
@@ -47,7 +73,10 @@
         <p id="present10">四进</p>
         <p id="present11">二举</p>
         <p id="present12">一秀</p>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3967636 (4.0)
     </div>
     <div class="award">
         <input type="text" id="a1" placeholder="奖品名称"/>
@@ -79,6 +108,7 @@
     </div>
 </div>
 <div class="playPage">
+<<<<<<< HEAD
     <img id="playBackground" src="../source/游戏背景.jpg"/>
     <img id="playerBG" src="../source/成员背景.png" height="1031*0.7" width="930*0.7"/>
     <img id="sheep" src="../source/羊.png" height="266" width="344"/>
@@ -86,6 +116,13 @@
 
     <p id="menber">房间成员</p>
 
+=======
+    <img id="playBackground" src="resources/游戏背景.jpg"/>
+    <img id="playerBG" src="resources/成员背景.png" height="1031*0.7" width="930*0.7"/>
+    <img id="sheep" src="resources/羊.png" height="266" width="344"/>
+    <button id="backToSet"></button>
+    <p id="member">房间成员</p>
+>>>>>>> 3967636 (4.0)
     <div class="playerInRoom">
         <p id="player1">玩家1</p>
         <p id="player2">玩家2</p>
@@ -100,6 +137,7 @@
         <p id="player11">玩家11</p>
         <p id="player12">玩家12</p>
     </div>
+<<<<<<< HEAD
 
     <!--  碗  -->
     <img id="bowlF" src="../source/碗正.png" height="339" width="550"/>
@@ -118,10 +156,28 @@
     <div class="waiting">
         <!--    开始按钮    -->
         <img  id="goToPlay" src="../source/开始.png" height="250" width="250"/>
+=======
+    <!--  碗  -->
+    <img id="bowlF" src="resources/碗正.png" height="339" width="550"/>
+    <!--骰子-->
+    <div class="dices">
+        <img src="resources/1.png" height="80" width="80"/>
+        <img src="resources/2.png" height="80" width="80"/>
+        <img src="resources/3.png" height="85" width="85"/>
+        <img src="resources/4.png" height="80" width="80"/>
+        <img src="resources/5.png" height="80" width="80"/>
+        <img src="resources/6.png" height="80" width="80"/>
+    </div>
+    <!--  等待界面  -->
+    <div class="waiting">
+        <!--    开始按钮    -->
+        <img  id="goToPlay" src="resources/开始.png" height="250" width="250"/>
+>>>>>>> 3967636 (4.0)
     </div>
     <!--  游戏进行  -->
     <div class="playing">
         <p id="state">现在轮到</p>
+<<<<<<< HEAD
         <p id="who">大胃王汤姆树</p>           <!--当前玩家名-->
         <button id="clickToPlay">投骰子！</button>
         <div class="afterRoll">         <!--摇后-->
@@ -152,12 +208,40 @@
     <p id="background" ></p>
     <p id="gameover" >游戏结束</p>
 
+=======
+        <p id="who"></p>           <!--当前玩家名-->
+        <button id="clickToPlay">投骰子！</button>
+        <div class="afterRoll">         <!--摇后-->
+            <!--  碗上  -->
+            <img id="bowlU" src="resources/碗上.png" height="867" width="954"/>
+            <!--   下一位按钮   -->
+            <button id="nextPlayer"></button>
+            <!-- 骰子结果 -->
+            <img id="d01" src="resources/2.png" alt='骰子？' height="100" width="100"/>
+            <img id="d02" src="resources/2.png" height="100" width="100"/>
+            <img id="d03" src="resources/3.png" height="120" width="120"/>
+            <img id="d04" src="resources/4.png" height="100" width="100"/>
+            <img id="d05" src="resources/5.png" height="110" width="110"/>
+            <img id="d06" src="resources/6.png" height="100" width="100"/>
+            <!--标签提示结果-->
+            <p id="showResult"></p>
+        </div>
+    </div>
+</div>
+<div class="resultPage">
+    <img src="resources/结算背景.png" />
+    <p id="background" ></p>
+    <p id="gameover" >游戏结束</p>
+>>>>>>> 3967636 (4.0)
     <div class="btn">
         <button id="again">再来一局!</button>
         <button id="back"/>退出房间</button>
         <button id="showAward">查看奖品</button>
     </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3967636 (4.0)
     <div class="player">
         <p id="p1"></p>
         <p id="p2"></p>
@@ -172,6 +256,7 @@
         <p id="p11"></p>
         <p id="p12"></p>
     </div>
+<<<<<<< HEAD
 
 </div>
 
@@ -184,6 +269,20 @@
 
     <img src="../source/兑奖.jpg" />
     <button id="backToResult">返回</button>
+=======
+</div>
+<div class="rulesPage" >
+    <img src="resources/规则界面背景.jpg" />
+    <img id="myRule" src="resources/规则.jpg" height="1327" width="1379"/>
+    <button id="ret"></button>
+    <p>亲爱的玩家，欢迎进入《中秋博饼》！本游戏可以设置参与游戏的人数。同时可以自定义对应不同获奖情况的奖品及个数，游戏结束后可以兑换哦。愿你有一个愉快的游戏体验~
+    </p>
+</div>
+<div class="awardPage">
+    <img src="resources/兑奖.jpg" />
+    <p id="tip">点击左边的奖项按钮兑换相应奖品</p>
+    <button id="backToResult"></button>
+>>>>>>> 3967636 (4.0)
     <div class="awardName1">
         <button id="award1">状元插金花</button>
         <button id="award2">六杯红</button>
@@ -211,7 +310,10 @@
         <p id="aw10"></p>
         <p id="aw11"></p>
         <p id="aw12"></p>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3967636 (4.0)
     </div>
     <div class="presentnum2">
         <p  id="n21"></p>
@@ -227,7 +329,14 @@
         <p  id="n211"></p>
         <p  id="n212"></p>
     </div>
+<<<<<<< HEAD
 
 </div>
+=======
+</div>
+<audio id="music" controls="controls" autoplay="autoplay"  >
+    <source src="resources/新春.mp3" />
+</audio>
+>>>>>>> 3967636 (4.0)
 </body>
 </html>
