@@ -67,3 +67,39 @@
         assert.strictEqual(clickToPlay(4,3,2,5,6,6), '一秀！','strictEqual test pass');
         assert.strictEqual(clickToPlay(3,3,3,2,2,1), 'yee~啥也没中','strictEqual test pass');
     });
+    let backToMain2 =function (number) {
+        /*判断礼物数量是否合法*/
+        let legal=true;
+        let reg=/^[0-9]$|^[1-9][0-9]$/;
+        if(!reg.test(number)){
+             legal=false;
+        }
+       return legal;
+    }
+    QUnit.test("backToMain2 test", function (assert) {
+        assert.strictEqual(backToMain2(100), false,'strictEqual test pass');
+        assert.strictEqual(backToMain2(0), true,'strictEqual test pass');
+        assert.strictEqual(backToMain2(66), true,'strictEqual test pass');
+        assert.strictEqual(backToMain2(99), true,'strictEqual test pass');
+        assert.strictEqual(backToMain2(1), true,'strictEqual test pass');
+        assert.strictEqual(backToMain2(12), true,'strictEqual test pass');
+        assert.strictEqual(backToMain2('009'), false,'strictEqual test pass');
+        assert.strictEqual(backToMain2(120), false,'strictEqual test pass');
+        assert.strictEqual(backToMain2('sadhf'), false,'strictEqual test pass');
+    });
+    let  awardButton= function (number) {
+        if (number - 1 >= 0) {
+            number--;
+            return number;
+        }
+        else if(number === 0)
+            return  "yee~倒霉，奖品兑换完了";
+        else
+            return "没有设置这个奖品啊喂";
+    }
+    QUnit.test("backToMain2 test", function (assert) {
+        assert.strictEqual(awardButton(99), 98,'strictEqual test pass');
+        assert.strictEqual(awardButton(0), "yee~倒霉，奖品兑换完了",'strictEqual test pass');
+        assert.strictEqual(awardButton(), "没有设置这个奖品啊喂",'strictEqual test pass');
+        assert.strictEqual(awardButton(1), 0,'strictEqual test pass');
+    });
