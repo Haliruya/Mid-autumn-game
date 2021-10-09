@@ -44,7 +44,6 @@ window.onload=function(){
         var mainPage=document.getElementsByClassName("mainPage");
         mainPage[0].style.display="block";
     }
-
     //-----------------------设置人数界面-------------------------
     var enter = document.getElementById("enter");
     var backToMain=document.getElementById("backToMain");
@@ -126,7 +125,6 @@ window.onload=function(){
             alert("违法！礼物数量是0-99噢");
         }
     }
-
     //--------------------------------游戏界面--------------------------
     var backToSet=document.getElementById("backToSet");
     backToSet.onclick=function () {
