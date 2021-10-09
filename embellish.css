@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-/*<!-----------------------主界面------------------->*/
-.mainPage{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%); 
-=======
 #music{
     height: 120px;
     width:100px;
@@ -20,7 +12,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
->>>>>>> 3967636 (4.0)
+
     display: block;
 }
 .mainPage .btn button{
@@ -28,19 +20,14 @@
     height: 25mm;
     position: absolute;
     left: 42%;
-<<<<<<< HEAD
-    background-color: rgba(105, 101, 222, 0.36);
-=======
     background-color: #85FFBD;
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
->>>>>>> 3967636 (4.0)
+
     border-radius: 10mm;
     font-size: 50px;
     font-weight: bold;
     font-family: 楷体;
 }
-<<<<<<< HEAD
-=======
 .mainPage p{
     position: absolute;
     top:10%;
@@ -53,7 +40,7 @@
     font-weight: bold;
     font-family: 楷体;
 }
->>>>>>> 3967636 (4.0)
+
 #start{
     top: 50%;
 }
@@ -63,10 +50,7 @@
 #present{
     top: 80%;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 3967636 (4.0)
 /*-------------------------规则界面-------------------------*/
 .rulesPage{
     position: absolute;
@@ -77,39 +61,25 @@
 }
 #myRule{
     position: absolute;
-<<<<<<< HEAD
-    left: 50%;
-=======
     width: auto;
     left: 45%;
->>>>>>> 3967636 (4.0)
+
     top: 49%;
     transform: translate(-50%,-50%);
     display: block;
 }
 #ret{
-<<<<<<< HEAD
-    width: 50mm;
-    height: 20mm;
-    position: absolute;
-    background-color: #a075dc;
-=======
     width: 60mm;
     height: 43mm;
     /*height="182" width="221"*/
     /*position: absolute;*/
     /*background-color: #a075dc;*/
     background-image:url('resources/返回.png');
->>>>>>> 3967636 (4.0)
+
     border-radius: 5mm;
     font-size: 50px;
     font-weight: bold;
     font-family: 楷体;
-<<<<<<< HEAD
-    top: 5%;
-    left: 3.2%;
-}
-=======
     position:absolute;
     top: 5%;
     left: 3.2%;
@@ -128,7 +98,7 @@
     writing-mode: vertical-lr;/*从左向右 */
     writing-mode: tb-rl;
 }
->>>>>>> 3967636 (4.0)
+
 /*-------------------------礼物设置界面-------------------------*/
 .setPresentPage{
     position: absolute;
@@ -141,12 +111,9 @@
     width: 150mm;
     height: 19mm;
     position: absolute;
-<<<<<<< HEAD
-    background-color: rgba(30, 184, 231, 0.91);
-=======
     background-color: #bbddf2;
     background-image: linear-gradient(0deg, #bbddf2 0%, #ced0f5 50%, #ffffff 100%);
->>>>>>> 3967636 (4.0)
+
     border-radius: 5mm;
     font-size:xx-large;
     font-family: 楷体;
@@ -156,18 +123,12 @@
     top:70%
 }
 #backToMain2{
-<<<<<<< HEAD
-    width: 50mm;
-    height: 20mm;
-    position: absolute;
-    background-color: #a075dc;
-=======
     width: 60mm;
     height: 43mm;
     background-image:url('resources/返回.png');
     position: absolute;
     /*background-color: #a075dc;*/
->>>>>>> 3967636 (4.0)
+
     border-radius: 5mm;
     font-size: 50px;
     font-weight: bold;
@@ -176,18 +137,6 @@
     left: 3.2%;
 }
 .awardName p{
-<<<<<<< HEAD
-    width: 50mm;
-    height: 19mm;
-    position: absolute;
-    background-color: rgba(30, 184, 231, 0.91);
-    border-radius: 5mm;
-    font-size:xx-large;
-    font-family: 楷体;
-    font-weight: bold;
-    text-align: center;
-    left:5%;
-=======
     width: 70mm;
     height: 19mm;
     position: absolute;
@@ -200,19 +149,16 @@
     text-align: center;
     color: rgba(0, 0, 0, 0.7);
     left:2%;
->>>>>>> 3967636 (4.0)
+
 }
 .award input{
     width: 100mm;
     height: 19mm;
     position: absolute;
-<<<<<<< HEAD
-    background-color: rgba(53, 219, 193, 0.73);
-=======
     background-color: #e5d1f7;
     background-image: linear-gradient(225deg, #e5d1f7 0%, #f2f2bb 21%, #faffd9 79%, #e5d1fd 100%);
 
->>>>>>> 3967636 (4.0)
+
     border-radius: 5mm;
     font-size: xx-large;
     font-family: 楷体;
@@ -224,13 +170,10 @@
     width: 50mm;
     height: 19mm;
     position: absolute;
-<<<<<<< HEAD
-    background-color: rgba(30, 184, 231, 0.91);
-=======
     background-color: #d6e2b2;
     background-image: linear-gradient(225deg, #d6e2b2 0%, #91b4f2 35%, #a5d8f7 78%, #e7f0c4 96%);
 
->>>>>>> 3967636 (4.0)
+
     border-radius: 5mm;
     font-size: xx-large;
     font-family: 楷体;
@@ -239,48 +182,6 @@
     left: 36%;
 }
 #present1{
-<<<<<<< HEAD
-    top: 23%;
-}
-#present2{
-    top: 28%;
-}
-#present3{
-    top: 33%;
-}
-#present4{
-    top: 38%;
-}
-#present5{
-    top: 43%;
-}
-#present6{
-    top: 48%;
-}
-#present7{
-    top: 23%;
-    left: 50%;
-}
-#present8{
-    top: 28%;
-    left: 50%;
-}
-#present9{
-    top: 33%;
-    left: 50%;
-}
-#present10{
-    top: 38%;
-    left: 50%;
-}
-#present11{
-    top: 43%;
-    left: 50%;
-}
-#present12{
-    top: 48%;
-    left: 50%;
-=======
     top: 22%;
 }
 #present2{
@@ -321,7 +222,7 @@
 #present12{
     top: 47%;
     left: 47%;
->>>>>>> 3967636 (4.0)
+
 }
 #a1{
     top: 25%;
@@ -409,11 +310,6 @@
     left: 81%;
 }
 
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 3967636 (4.0)
 /*<!----------------------设置人数界面--------------------->*/
 .setNumPage{
     position: absolute;
@@ -439,12 +335,9 @@
     position: absolute;
     top: 45%;
     left: 33%;
-<<<<<<< HEAD
-    background-color: rgba(0, 72, 255, 0.36);
-=======
     background-color: #85FFBD;
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
->>>>>>> 3967636 (4.0)
+
     border-radius: 10mm;
     font-family: 楷体;
     font-size: 50px;
@@ -453,12 +346,6 @@
     border:7px solid rgba(69, 252, 179, 0.69);
 }
 #backToMain{
-<<<<<<< HEAD
-    width: 50mm;
-    height: 20mm;
-    position: absolute;
-    background-color: #a075dc;
-=======
     width: 60mm;
     height: 43mm;
     /*height="182" width="221"*/
@@ -467,7 +354,7 @@
     background-image:url('resources/返回.png');
     /*position: absolute;*/
     /*background-color: #a075dc;*/
->>>>>>> 3967636 (4.0)
+
     border-radius: 5mm;
     font-size: 50px;
     font-weight: bold;
@@ -476,47 +363,17 @@
     left: 3.2%;
 }
 #enter{
-<<<<<<< HEAD
-    top: 60%;
-}
-#clear{
-    top: 70%;
-}
-
-/*---------------------------游戏进行界面----------------------------*/
-.playPage{
-    display: none;
-}
-#playBackground{            /*界面背景*/
-=======
     background-color: #85FFBD;
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
     top: 60%;
 }
 /*---------------------------游戏进行界面----------------------------*/
 .playPage{
->>>>>>> 3967636 (4.0)
+
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-<<<<<<< HEAD
-}
-#playerBG{                  /*玩家列表底色*/
-    position: fixed;
-    left: 16%;
-    top: 17%;
-}
-
-#backToSet{                  /*返回*/
-    position: absolute;
-    left: 22%;
-    top: 6%;
-}
-#sheep{                       /*羊*/
-    position: absolute;
-    left: 67%;
-=======
     display: none;
 }
 /*#playBackground{            !*界面背景*!*/
@@ -541,36 +398,19 @@
 #sheep{                       /*羊*/
     position: absolute;
     left: 75%;
->>>>>>> 3967636 (4.0)
+
     top: 32%;
 }
 .playerInRoom p{
     width: 130mm;
-<<<<<<< HEAD
-    height: 15mm;
-    background-color: rgba(185, 190, 238, 0.45);
-    border-radius: 5mm;
-=======
     height: 14mm;
     background-color: rgba(185, 190, 238, 0.45);
     /*border-adius: 5mm;*/
->>>>>>> 3967636 (4.0)
+
     font-size: 40px;
     font-weight: bold;
     font-family: 楷体;
     position: absolute;
-<<<<<<< HEAD
-    left: 24%;
-    text-align: center;
-}
-
-#menber{
-    font-size: 50px;
-    font-weight: bold;
-    font-family: 楷体;
-    position: absolute;
-    left: 28.5%;
-=======
     left: 15%;
     text-align: center;
 }
@@ -580,7 +420,7 @@
     font-weight: bold;
     font-family: 楷体;
     left: 21%;
->>>>>>> 3967636 (4.0)
+
     top: 23%;
 }
 #player1{
@@ -633,13 +473,6 @@
     top: 65%;
 }
 #goToPlay{
-<<<<<<< HEAD
-    position: absolute;
-    left: 68%;
-    top: 10%;
-}
-
-=======
     width: 60mm;
     height: 43mm;
     background-image:url('resources/开始.png');
@@ -647,7 +480,7 @@
     left: 80%;
     top: 6%;
 }
->>>>>>> 3967636 (4.0)
+
 .playPage .playing{                         /*进行时组件*/
     display: none;
 }
@@ -655,13 +488,9 @@
     width: 60mm;
     height: 12mm;
     position: absolute;
-<<<<<<< HEAD
-    top: 19%;
-    left: 68.2%;
-=======
     top: 10%;
     left: 80%;
->>>>>>> 3967636 (4.0)
+
     background-color: rgba(0, 72, 255, 0.36);
     border-radius: 2mm;
     font-family: 楷体;
@@ -673,13 +502,9 @@
     width: 80mm;
     height: 15mm;
     position: absolute;
-<<<<<<< HEAD
-    top: 25%;
-    left: 67%;
-=======
     top: 16%;
     left: 78%;
->>>>>>> 3967636 (4.0)
+
     background-color: rgba(0, 72, 255, 0.36);
     border-radius: 5mm;
     font-family: 楷体;
@@ -696,14 +521,9 @@
     background-color: rgb(232, 53, 29);
     border-radius: 5mm;
     top: 74%;
-<<<<<<< HEAD
-    left: 58.3%;
-}
-
-=======
     left: 62%;
 }
->>>>>>> 3967636 (4.0)
+
 .afterRoll{               /*摇后*/
     display: none;
 }
@@ -713,24 +533,13 @@
     left: 45%;
 }
 #nextPlayer{
-<<<<<<< HEAD
-    position: absolute;
-    width: 84mm;
-    height: 42mm;
-    top: 21.5%;
-    left: 67%;
-    background-color: rgb(95, 236, 163);
-    border-radius: 5mm;
-    font-size: xx-large;
-    font-weight: bold;
-=======
     width: 60mm;
     height: 43mm;
     background-image:url('resources/开始.png');
     position: absolute;
     left: 80%;
     top: 6%;
->>>>>>> 3967636 (4.0)
+
 }
 #showResult{
     position: absolute;
@@ -748,39 +557,25 @@
 #d01{
     position: absolute;
     top: 45%;
-<<<<<<< HEAD
-    left: 56%;
-=======
     left: 60%;
->>>>>>> 3967636 (4.0)
+
 }
 #d02{
     position: absolute;
     top: 42%;
-<<<<<<< HEAD
-    left: 60%;
-}
-#d03{
-    position: absolute;
-    top: 44%;
-    left: 64%;
-=======
     left: 68%;
 }
 #d03{
     position: absolute;
     top: 47%;
     left: 74%;
->>>>>>> 3967636 (4.0)
+
 }
 #d04{
     position: absolute;
     top: 55%;
-<<<<<<< HEAD
-    left: 56%;
-=======
     left: 70%;
->>>>>>> 3967636 (4.0)
+
 }
 #d05{
     position: absolute;
@@ -795,15 +590,10 @@
 
 /*-----------------------------结算界面-----------------------------*/
 .resultPage {
-<<<<<<< HEAD
-    position: absolute;
-    left: 50%;
-    top: 52%;
-=======
     position: fixed;
     left: 50%;
     top: 50%;
->>>>>>> 3967636 (4.0)
+
     transform: translate(-50%, -50%);
     display: none;
 }
@@ -813,11 +603,8 @@
     margin: 15mm;
     position: absolute;
     top: 7%;
-<<<<<<< HEAD
-    left: 17%;
-=======
     left: 13%;
->>>>>>> 3967636 (4.0)
+
     background-color: rgba(0, 255, 144, 0.36);
     border-radius: 10mm;
     font-size: xx-large;
@@ -842,17 +629,6 @@
     font-weight: bold;
 }
 #again{
-<<<<<<< HEAD
-    top: 70%;
-    left: 46%;
-}
-#back{
-    top: 70%;
-    left: 59%;
-}
-#showAward{
-    top: 70%;
-=======
     top: 73%;
     left: 46%;
 }
@@ -862,7 +638,7 @@
 }
 #showAward{
     top: 73%;
->>>>>>> 3967636 (4.0)
+
     left: 33%;
 }
 .player p{
@@ -875,11 +651,8 @@
     font-family: 楷体;
     font-weight: bold;
     text-align: center;
-<<<<<<< HEAD
-    left: 24%;
-=======
     left: 22%;
->>>>>>> 3967636 (4.0)
+
 }
 #p1{
     top: 18%;
@@ -917,10 +690,6 @@
 #p12{
     top: 62%;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 3967636 (4.0)
 /*  -----------------------------------------------兑奖界面------------------  */
 .awardPage{
     position: absolute;
@@ -930,18 +699,6 @@
     display: none;
 }
 #backToResult{
-<<<<<<< HEAD
-    width: 50mm;
-    height: 19mm;
-    position: absolute;
-    background-color: #a075dc;
-    border-radius: 5mm;
-    font-size: 50px;
-    font-weight: bold;
-    font-family: 楷体;
-    top: 5%;
-    left: 3.2%;
-=======
     position: absolute;
     background-image:url('resources/返回.png');
     left: 5%;
@@ -962,38 +719,30 @@
     text-align: center;
     left:37%;
     top:18%
->>>>>>> 3967636 (4.0)
+
 }
 .awardName1 button{
     width: 50mm;
     height: 19mm;
     position: absolute;
-<<<<<<< HEAD
-    background-color: rgba(30, 184, 231, 0.91);
-=======
     background-color: #f3dff7;
     background-image: linear-gradient(180deg, #f3dff7 0%, #91b4f2 29%, #80a7ec 73%, #eed3ec 100%);
->>>>>>> 3967636 (4.0)
+
     border-radius: 5mm;
     font-size: xx-large;
     font-family: 楷体;
     font-weight: bold;
-<<<<<<< HEAD
-=======
     text-align: center;
->>>>>>> 3967636 (4.0)
+
     left: 25%;
 }
 .award2 p{
     width: 100mm;
     height: 19mm;
     position: absolute;
-<<<<<<< HEAD
-    background-color: rgba(53, 219, 193, 0.73);
-=======
     background-color: #e5d1f7;
     background-image: linear-gradient(225deg, #e5d1f7 0%, #f2f2bb 21%, #faffd9 79%, #e5d1fd 100%);
->>>>>>> 3967636 (4.0)
+
     border-radius: 5mm;
     font-size: xx-large;
     font-family: 楷体;
@@ -1005,13 +754,10 @@
     width: 20mm;
     height: 19mm;
     position: absolute;
-<<<<<<< HEAD
-    background-color: rgba(30, 184, 231, 0.91);
-=======
     background-color: #d6e2b2;
     background-image: linear-gradient(225deg, #d6e2b2 0%, #91b4f2 35%, #a5d8f7 78%, #e7f0c4 96%);
 
->>>>>>> 3967636 (4.0)
+
     border-radius: 5mm;
     font-size: xx-large;
     font-family: 楷体;
@@ -1147,8 +893,5 @@
 #n212{
     top: 53%;
     left: 89%;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 3967636 (4.0)
+

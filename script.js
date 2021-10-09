@@ -4,15 +4,9 @@ window.onload=function(){
     var playerName=[];    /*玩家名*/
     var playerAward=[];    /*玩家获奖列表*/
     for(let i=0;i<12;i++){
-<<<<<<< HEAD
-        playerAward[i]=""; 
-    }
-    //-----------------------主界面-----------------------
-=======
         playerAward[i]="";
     }
      //-----------------------主界面-----------------------
->>>>>>> 3967636 (4.0)
     let start=document.getElementById("start");
     start.onclick=function () {    //点击开始游戏进入设置界面
         let mainPage=document.getElementsByClassName("mainPage");
@@ -93,16 +87,6 @@ window.onload=function(){
             alert("输入不合法，请输入1~12的数字。");
         }
     };
-<<<<<<< HEAD
-    clear.onclick=function () {
-        for(let i=0;i<12;i++){
-            playerAward[i]="";
-            playerName[i]="";
-        }
-        alert("数据已被清空");
-    }
-=======
->>>>>>> 3967636 (4.0)
     backToMain.onclick=function () {
         var setNumPage=document.getElementsByClassName("setNumPage");
         setNumPage[0].style.display="none";
@@ -117,16 +101,10 @@ window.onload=function(){
         for(let i=0;i<12;i++){
             let awardName=document.getElementById("a"+(i+1));
             let awardNum=document.getElementById("n"+(i+1));
-<<<<<<< HEAD
-            if(awardName.value!=""){
-                let temp=awardNum.value-0;
-                if(temp<0||temp>99){
-=======
             let reg=/^[0-9]$|^[1-9][0-9]$/;
             if(awardName.value!==""){
                 let temp=awardNum.value;
                 if(!reg.test(temp)){
->>>>>>> 3967636 (4.0)
                     legal=false;
                     break;
                 }
@@ -177,19 +155,11 @@ window.onload=function(){
     /*---------------------------------游戏内容-------------------*/
     var clickToPlay=document.getElementById("clickToPlay");
     clickToPlay.onclick=function () {
-<<<<<<< HEAD
-        var dices=["../source/1.png","../source/2.png","../source/3.png","../source/4.png","../source/5.png","../source/6.png"];
-=======
         var dices=["resources/1.png","resources/2.png","resources/3.png","resources/4.png","resources/5.png","resources/6.png"];
->>>>>>> 3967636 (4.0)
         var tips=["状元插金花！","六杯红！","六杯黑！","五王！","五子带一秀！","五子登科！","状元！","对堂！","三红！","四进！","二举！","一秀！","yee~啥也没中"];
         var dicesResult=[];    /*-------------骰子结果*/
         let dicesResultSort=[0,0,0,0,0,0,0];
         var awardTemp=[];
-<<<<<<< HEAD
-
-=======
->>>>>>> 3967636 (4.0)
         /*-----------------------------------当前玩家骰子出结果过程-----------*/
         for(var j=0;j<6;j++){
             dicesResult[j]=(Math.ceil(Math.random()*6));
@@ -225,15 +195,8 @@ window.onload=function(){
             grade =11;
         else grade =12;
         let showResult=document.getElementById("showResult");
-<<<<<<< HEAD
-        showResult.innerText=tips[grade];
-        playerAward[now]=tips[grade];
-
-
-=======
         showResult.innerHTML=tips[grade];
         playerAward[now]=tips[grade];
->>>>>>> 3967636 (4.0)
         /*显示结果*/
         let afterRoll=document.getElementsByClassName("afterRoll");
         afterRoll[0].style.display="block";
@@ -270,16 +233,8 @@ window.onload=function(){
             let resultPage=document.getElementsByClassName("resultPage");
             resultPage[0].style.display="block";
         }
-<<<<<<< HEAD
-
-        /*判断中奖并存入缓存*/
-
-    }
-
-=======
         /*判断中奖并存入缓存*/
     }
->>>>>>> 3967636 (4.0)
     //--------------------------结算界面-------------------------------
     var ret=document.getElementById("back");
     ret.onclick=function () {
@@ -297,10 +252,6 @@ window.onload=function(){
             playerAward[i]="";
             document.getElementById("player"+(i+1)).innerText=playerName[i]+"    中:";
         }
-<<<<<<< HEAD
-
-=======
->>>>>>> 3967636 (4.0)
         var resultPage=document.getElementsByClassName("resultPage");
         resultPage[0].style.display="none";
         let playing=document.getElementsByClassName("playing");
@@ -309,10 +260,6 @@ window.onload=function(){
         waiting[0].style.display="block";
         var playPage=document.getElementsByClassName("playPage");
         playPage[0].style.display="block";
-<<<<<<< HEAD
-
-=======
->>>>>>> 3967636 (4.0)
     }
     let showAward=document.getElementById("showAward");
     showAward.onclick=function () {
@@ -321,10 +268,6 @@ window.onload=function(){
         let awardPage=document.getElementsByClassName("awardPage");
         awardPage[0].style.display="block";
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> 3967636 (4.0)
     /*------------------------------------------------兑奖界面---------------------------*/
     let backToResult=document.getElementById("backToResult");
     backToResult.onclick=function () {
