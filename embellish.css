@@ -1,0 +1,796 @@
+/*<!-----------------------主界面------------------->*/
+.mainPage{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); 
+    display: block;
+}
+.mainPage .btn button{
+    width: 100mm;
+    height: 25mm;
+    position: absolute;
+    left: 42%;
+    background-color: rgba(105, 101, 222, 0.36);
+    border-radius: 10mm;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 楷体;
+}
+#start{
+    top: 50%;
+}
+#rule{
+    top: 65%;
+}
+#present{
+    top: 80%;
+}
+
+/*-------------------------规则界面-------------------------*/
+.rulesPage{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+#myRule{
+    position: absolute;
+    left: 50%;
+    top: 49%;
+    transform: translate(-50%,-50%);
+    display: block;
+}
+#ret{
+    width: 50mm;
+    height: 20mm;
+    position: absolute;
+    background-color: #a075dc;
+    border-radius: 5mm;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 楷体;
+    top: 5%;
+    left: 3.2%;
+}
+/*-------------------------礼物设置界面-------------------------*/
+.setPresentPage{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+#presenttip{
+    width: 150mm;
+    height: 19mm;
+    position: absolute;
+    background-color: rgba(30, 184, 231, 0.91);
+    border-radius: 5mm;
+    font-size:xx-large;
+    font-family: 楷体;
+    font-weight: bold;
+    text-align: center;
+    left:35%;
+    top:70%
+}
+#backToMain2{
+    width: 50mm;
+    height: 20mm;
+    position: absolute;
+    background-color: #a075dc;
+    border-radius: 5mm;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 楷体;
+    top: 5%;
+    left: 3.2%;
+}
+.awardName p{
+    width: 50mm;
+    height: 19mm;
+    position: absolute;
+    background-color: rgba(30, 184, 231, 0.91);
+    border-radius: 5mm;
+    font-size:xx-large;
+    font-family: 楷体;
+    font-weight: bold;
+    text-align: center;
+    left:5%;
+}
+.award input{
+    width: 100mm;
+    height: 19mm;
+    position: absolute;
+    background-color: rgba(53, 219, 193, 0.73);
+    border-radius: 5mm;
+    font-size: xx-large;
+    font-family: 楷体;
+    font-weight: bold;
+    text-align: center;
+    left: 16%;
+}
+.presentnum input{
+    width: 50mm;
+    height: 19mm;
+    position: absolute;
+    background-color: rgba(30, 184, 231, 0.91);
+    border-radius: 5mm;
+    font-size: xx-large;
+    font-family: 楷体;
+    font-weight: bold;
+    text-align: center;
+    left: 36%;
+}
+#present1{
+    top: 23%;
+}
+#present2{
+    top: 28%;
+}
+#present3{
+    top: 33%;
+}
+#present4{
+    top: 38%;
+}
+#present5{
+    top: 43%;
+}
+#present6{
+    top: 48%;
+}
+#present7{
+    top: 23%;
+    left: 50%;
+}
+#present8{
+    top: 28%;
+    left: 50%;
+}
+#present9{
+    top: 33%;
+    left: 50%;
+}
+#present10{
+    top: 38%;
+    left: 50%;
+}
+#present11{
+    top: 43%;
+    left: 50%;
+}
+#present12{
+    top: 48%;
+    left: 50%;
+}
+#a1{
+    top: 25%;
+}
+#a2{
+    top: 30%;
+}
+#a3{
+    top: 35%;
+}
+#a4{
+    top: 40%;
+}
+#a5{
+    top: 45%;
+}
+#a6{
+    top: 50%;
+}
+#a7{
+    top: 25%;
+    left: 61%;
+}
+#a8{
+    top: 30%;
+    left: 61%;
+}
+#a9{
+    top: 35%;
+    left: 61%;
+}
+#a10{
+    top: 40%;
+    left: 61%;
+}
+#a11{
+    top: 45%;
+    left: 61%;
+}
+#a12{
+    top: 50%;
+    left: 61%;
+}
+
+#n1{
+    top: 25%;
+}
+#n2{
+    top: 30%;
+}
+#n3{
+    top: 35%;
+}
+#n4{
+    top: 40%;
+}
+#n5{
+    top: 45%;
+}
+#n6{
+    top: 50%;
+}
+#n7{
+    top: 25%;
+    left: 81%;
+}
+#n8{
+    top: 30%;
+    left: 81%;
+}
+#n9{
+    top: 35%;
+    left: 81%;
+}
+#n10{
+    top: 40%;
+    left: 81%;
+}
+#n11{
+    top: 45%;
+    left: 81%;
+}
+#n12{
+    top: 50%;
+    left: 81%;
+}
+
+
+
+/*<!----------------------设置人数界面--------------------->*/
+.setNumPage{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+.setNumPage .elements button{
+    width: 100mm;
+    height: 25mm;
+    left: 42%;
+    position: absolute;
+    background-color: rgba(137, 101, 222, 0.36);
+    border-radius: 10mm;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 楷体;
+}
+.setNumPage .elements input{
+    width: 200mm;
+    height: 25mm;
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    background-color: rgba(0, 72, 255, 0.36);
+    border-radius: 10mm;
+    font-family: 楷体;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    border:7px solid rgba(69, 252, 179, 0.69);
+}
+#backToMain{
+    width: 50mm;
+    height: 20mm;
+    position: absolute;
+    background-color: #a075dc;
+    border-radius: 5mm;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 楷体;
+    top: 5%;
+    left: 3.2%;
+}
+#enter{
+    top: 60%;
+}
+#clear{
+    top: 70%;
+}
+
+/*---------------------------游戏进行界面----------------------------*/
+.playPage{
+    display: none;
+}
+#playBackground{            /*界面背景*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#playerBG{                  /*玩家列表底色*/
+    position: fixed;
+    left: 16%;
+    top: 17%;
+}
+
+#backToSet{                  /*返回*/
+    position: absolute;
+    left: 22%;
+    top: 6%;
+}
+#sheep{                       /*羊*/
+    position: absolute;
+    left: 67%;
+    top: 32%;
+}
+.playerInRoom p{
+    width: 130mm;
+    height: 15mm;
+    background-color: rgba(185, 190, 238, 0.45);
+    border-radius: 5mm;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 楷体;
+    position: absolute;
+    left: 24%;
+    text-align: center;
+}
+
+#menber{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 楷体;
+    position: absolute;
+    left: 28.5%;
+    top: 23%;
+}
+#player1{
+    top: 30%;
+}
+#player2{
+    top: 34%;
+}
+#player3{
+    top: 38%;
+}
+#player4{
+    top: 42%;
+}
+#player5{
+    top: 46%;
+}
+#player6{
+    top: 50%;
+}
+#player7{
+    top: 54%;
+}
+#player8{
+    top: 58%;
+}
+#player9{
+    top: 62%;
+}
+#player10{
+    top: 66%;
+}
+#player11{
+    top: 70%;
+}
+#player12{
+    top: 74%;
+}
+.playPage .waiting{                         /*等待时组件*/
+    display: block;
+}
+#bowlF{                        /*碗*/
+    position: absolute;
+    left: 52%;
+    top: 42%;
+}
+.dices{              /*骰子*/
+    position: absolute;
+    left: 50%;
+    top: 65%;
+}
+#goToPlay{
+    position: absolute;
+    left: 68%;
+    top: 10%;
+}
+
+.playPage .playing{                         /*进行时组件*/
+    display: none;
+}
+#state{
+    width: 60mm;
+    height: 12mm;
+    position: absolute;
+    top: 19%;
+    left: 68.2%;
+    background-color: rgba(0, 72, 255, 0.36);
+    border-radius: 2mm;
+    font-family: 楷体;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+#who{
+    width: 80mm;
+    height: 15mm;
+    position: absolute;
+    top: 25%;
+    left: 67%;
+    background-color: rgba(0, 72, 255, 0.36);
+    border-radius: 5mm;
+    font-family: 楷体;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+}
+#clickToPlay{
+    font-family: 楷体;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+    position: absolute;
+    background-color: rgb(232, 53, 29);
+    border-radius: 5mm;
+    top: 74%;
+    left: 58.3%;
+}
+
+.afterRoll{               /*摇后*/
+    display: none;
+}
+#bowlU{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+#nextPlayer{
+    position: absolute;
+    width: 84mm;
+    height: 42mm;
+    top: 21.5%;
+    left: 67%;
+    background-color: rgb(95, 236, 163);
+    border-radius: 5mm;
+    font-size: xx-large;
+    font-weight: bold;
+}
+#showResult{
+    position: absolute;
+    top: 34%;
+    left: 49%;
+    width: 100mm;
+    height: 15mm;
+    background-color: rgba(243, 175, 123, 0.96);
+    border-radius: 5mm;
+    font-family: 楷体;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+}
+#d01{
+    position: absolute;
+    top: 45%;
+    left: 56%;
+}
+#d02{
+    position: absolute;
+    top: 42%;
+    left: 60%;
+}
+#d03{
+    position: absolute;
+    top: 44%;
+    left: 64%;
+}
+#d04{
+    position: absolute;
+    top: 55%;
+    left: 56%;
+}
+#d05{
+    position: absolute;
+    top: 58%;
+    left: 60%;
+}
+#d06{
+    position: absolute;
+    top: 56%;
+    left: 64%;
+}
+
+/*-----------------------------结算界面-----------------------------*/
+.resultPage {
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+#background{
+    width: 360mm;
+    height: 260mm;
+    margin: 15mm;
+    position: absolute;
+    top: 7%;
+    left: 17%;
+    background-color: rgba(0, 255, 144, 0.36);
+    border-radius: 10mm;
+    font-size: xx-large;
+}
+#gameover{
+    position: absolute;
+    top: 11%;
+    left: 45%;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
+.resultPage .btn button{
+    width: 50mm;
+    height: 20mm;
+    position: absolute;
+    background-color: #0370f6;
+    border-radius: 5mm;
+    font-size: 35px;
+    font-family: 楷体;
+    color: azure;
+    font-weight: bold;
+}
+#again{
+    top: 70%;
+    left: 46%;
+}
+#back{
+    top: 70%;
+    left: 59%;
+}
+#showAward{
+    top: 70%;
+    left: 33%;
+}
+.player p{
+    width: 302mm;
+    height: 15mm;
+    position: absolute;
+    background-color: rgba(206, 238, 223, 0.73);
+    border-radius: 5mm;
+    font-size: 35px;
+    font-family: 楷体;
+    font-weight: bold;
+    text-align: center;
+    left: 24%;
+}
+#p1{
+    top: 18%;
+}
+#p2{
+    top: 22%;
+}
+#p3{
+    top: 26%;
+}
+#p4{
+    top: 30%;
+}
+#p5{
+    top: 34%;
+}
+#p6{
+    top: 38%;
+}
+#p7{
+    top: 42%;
+}
+#p8{
+    top: 46%;
+}
+#p9{
+    top: 50%;
+}
+#p10{
+    top: 54%;
+}
+#p11{
+    top: 58%;
+}
+#p12{
+    top: 62%;
+}
+
+/*  -----------------------------------------------兑奖界面------------------  */
+.awardPage{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+#backToResult{
+    width: 50mm;
+    height: 19mm;
+    position: absolute;
+    background-color: #a075dc;
+    border-radius: 5mm;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 楷体;
+    top: 5%;
+    left: 3.2%;
+}
+.awardName1 button{
+    width: 50mm;
+    height: 19mm;
+    position: absolute;
+    background-color: rgba(30, 184, 231, 0.91);
+    border-radius: 5mm;
+    font-size: xx-large;
+    font-family: 楷体;
+    font-weight: bold;
+    left: 25%;
+}
+.award2 p{
+    width: 100mm;
+    height: 19mm;
+    position: absolute;
+    background-color: rgba(53, 219, 193, 0.73);
+    border-radius: 5mm;
+    font-size: xx-large;
+    font-family: 楷体;
+    font-weight: bold;
+    text-align: center;
+    left: 35%;
+}
+.presentnum2 p{
+    width: 20mm;
+    height: 19mm;
+    position: absolute;
+    background-color: rgba(30, 184, 231, 0.91);
+    border-radius: 5mm;
+    font-size: xx-large;
+    font-family: 楷体;
+    font-weight: bold;
+    text-align: center;
+    left: 54%;
+}
+/*奖品类型*/
+#award1{
+    top: 30%;
+}
+#award2{
+    top: 35%;
+}
+#award3{
+    top: 40%;
+}
+#award4{
+    top: 45%;
+}
+#award5{
+    top: 50%;
+}
+#award6{
+    top: 55%;
+}
+#award7{
+    top: 30%;
+    left: 60%;
+}
+#award8{
+    top: 35%;
+    left: 60%;
+}
+#award9{
+    top: 40%;
+    left: 60%;
+}
+#award10{
+    top: 45%;
+    left: 60%;
+}
+#award11{
+    top: 50%;
+    left: 60%;
+}
+#award12{
+    top: 55%;
+    left: 60%;
+}
+/*奖品名称*/
+#aw1{
+    top: 28%;
+}
+#aw2{
+    top: 33%;
+}
+#aw3{
+    top: 38%;
+}
+#aw4{
+    top: 43%;
+}
+#aw5{
+    top: 48%;
+}
+#aw6{
+    top: 53%;
+}
+#aw7{
+    top: 28%;
+    left: 70%;
+}
+#aw8{
+    top: 33%;
+    left: 70%;
+}
+#aw9{
+    top: 38%;
+    left: 70%;
+}
+#aw10{
+    top: 43%;
+    left: 70%;
+}
+#aw11{
+    top: 48%;
+    left: 70%;
+}
+#aw12{
+    top: 53%;
+    left: 70%;
+}
+/*奖品数量*/
+#n21{
+    top: 28%;
+}
+#n22{
+    top: 33%;
+}
+#n23{
+    top: 38%;
+}
+#n24{
+    top: 43%;
+}
+#n25{
+    top: 48%;
+}
+#n26{
+    top: 53%;
+}
+#n27{
+    top: 28%;
+    left: 89%;
+}
+#n28{
+    top: 33%;
+    left: 89%;
+}
+#n29{
+    top: 38%;
+    left: 89%;
+}
+#n210{
+    top: 43%;
+    left: 89%;
+}
+#n211{
+    top: 48%;
+    left: 89%;
+}
+#n212{
+    top: 53%;
+    left: 89%;
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>中秋博饼</title>
+    <link rel ='stylesheet' href="interface.css">
+    <script src="../JS/test4.js"></script> 
+
+</head>
+<body>
+
+<div class="mainPage" >
+    <img src="../source/主界面背景.png" />
+    <div class="btn">
+        <button id="start">开始游戏</button>
+        <button id="rule">游戏规则</button>
+        <button id="present">设置礼物</button>
+    </div>
+</div>
+
+<div class="setNumPage">
+    <img src="../source/主界面背景.png" />
+    <div class="elements">
+        <input type="text" id="number" value="" placeholder="请输入玩家人数(<=12人)"/>
+        <button id="enter">下一步</button>
+        <button id="clear">清除数据</button>
+        <button id="backToMain">返回</button>
+    </div>
+</div>
+<!--  奖品设置界面  -->
+<div class="setPresentPage">
+    <img src="../source/主界面背景.png" />
+    <div class="elements">
+        <button id="backToMain2">返回</button>
+    </div>
+    <p id="presenttip">奖品数量是1~99哦</p>
+    <div class="awardName">
+        <p id="present1">状元插金花</p>
+        <p id="present2">六杯红</p>
+        <p id="present3">六杯黑</p>
+        <p id="present4">五王</p>
+        <p id="present5">五子带一秀</p>
+        <p id="present6">五子登科</p>
+        <p id="present7">状元</p>
+        <p id="present8">对堂</p>
+        <p id="present9">三红</p>
+        <p id="present10">四进</p>
+        <p id="present11">二举</p>
+        <p id="present12">一秀</p>
+
+    </div>
+    <div class="award">
+        <input type="text" id="a1" placeholder="奖品名称"/>
+        <input type="text" id="a2" placeholder="奖品名称"/>
+        <input type="text" id="a3" placeholder="奖品名称"/>
+        <input type="text" id="a4" placeholder="奖品名称"/>
+        <input type="text" id="a5" placeholder="奖品名称"/>
+        <input type="text" id="a6" placeholder="奖品名称"/>
+        <input type="text" id="a7" placeholder="奖品名称"/>
+        <input type="text" id="a8" placeholder="奖品名称"/>
+        <input type="text" id="a9" placeholder="奖品名称"/>
+        <input type="text" id="a10" placeholder="奖品名称"/>
+        <input type="text" id="a11" placeholder="奖品名称"/>
+        <input type="text" id="a12" placeholder="奖品名称"/>
+    </div>
+    <div class="presentnum">
+        <input type="text" id="n1" placeholder="奖品数量">
+        <input type="text" id="n2" placeholder="奖品数量">
+        <input type="text" id="n3" placeholder="奖品数量">
+        <input type="text" id="n4" placeholder="奖品数量">
+        <input type="text" id="n5" placeholder="奖品数量">
+        <input type="text" id="n6" placeholder="奖品数量">
+        <input type="text" id="n7" placeholder="奖品数量">
+        <input type="text" id="n8" placeholder="奖品数量">
+        <input type="text" id="n9" placeholder="奖品数量">
+        <input type="text" id="n10" placeholder="奖品数量">
+        <input type="text" id="n11" placeholder="奖品数量">
+        <input type="text" id="n12" placeholder="奖品数量">
+    </div>
+</div>
+<div class="playPage">
+    <img id="playBackground" src="../source/游戏背景.jpg"/>
+    <img id="playerBG" src="../source/成员背景.png" height="1031*0.7" width="930*0.7"/>
+    <img id="sheep" src="../source/羊.png" height="266" width="344"/>
+    <img id="backToSet" src="../source/返回.png" height="182" width="221"/>
+
+    <p id="menber">房间成员</p>
+
+    <div class="playerInRoom">
+        <p id="player1">玩家1</p>
+        <p id="player2">玩家2</p>
+        <p id="player3">玩家3</p>
+        <p id="player4">玩家4</p>
+        <p id="player5">玩家5</p>
+        <p id="player6">玩家6</p>
+        <p id="player7">玩家7</p>
+        <p id="player8">玩家8</p>
+        <p id="player9">玩家9</p>
+        <p id="player10">玩家10</p>
+        <p id="player11">玩家11</p>
+        <p id="player12">玩家12</p>
+    </div>
+
+    <!--  碗  -->
+    <img id="bowlF" src="../source/碗正.png" height="339" width="550"/>
+
+    <!--骰子-->
+    <div class="dices">
+        <img src="../source/1.png" height="80" width="80"/>
+        <img src="../source/2.png" height="80" width="80"/>
+        <img src="../source/3.png" height="85" width="85"/>
+        <img src="../source/4.png" height="80" width="80"/>
+        <img src="../source/5.png" height="80" width="80"/>
+        <img src="../source/6.png" height="80" width="80"/>
+    </div>
+
+    <!--  等待界面  -->
+    <div class="waiting">
+        <!--    开始按钮    -->
+        <img  id="goToPlay" src="../source/开始.png" height="250" width="250"/>
+    </div>
+    <!--  游戏进行  -->
+    <div class="playing">
+        <p id="state">现在轮到</p>
+        <p id="who">大胃王汤姆树</p>           <!--当前玩家名-->
+        <button id="clickToPlay">投骰子！</button>
+        <div class="afterRoll">         <!--摇后-->
+            <!--  碗上  -->
+            <img id="bowlU" src="../source/碗上.png" height="867" width="954"/>
+            <!--   下一位按钮   -->
+            <button id="nextPlayer">下一位</button>
+
+            <!-- 骰子结果 -->
+            <img id="d01" src="../source/1.png" height="100" width="100"/>
+            <img id="d02" src="../source/2.png" height="100" width="100"/>
+            <img id="d03" src="../source/3.png" height="120" width="120"/>
+            <img id="d04" src="../source/4.png" height="100" width="100"/>
+            <img id="d05" src="../source/5.png" height="110" width="110"/>
+            <img id="d06" src="../source/6.png" height="100" width="100"/>
+
+            <!--标签提示结果-->
+            <p id="showResult">状元！</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="resultPage">
+    <img src="../source/结算背景.png" height="1365" width="2184"/>
+    <p id="background" ></p>
+    <p id="gameover" >游戏结束</p>
+
+    <div class="btn">
+        <button id="again">再来一局!</button>
+        <button id="back"/>退出房间</button>
+        <button id="showAward">查看奖品</button>
+    </div>
+
+    <div class="player">
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+        <p id="p4"></p>
+        <p id="p5"></p>
+        <p id="p6"></p>
+        <p id="p7"></p>
+        <p id="p8"></p>
+        <p id="p9"></p>
+        <p id="p10"></p>
+        <p id="p11"></p>
+        <p id="p12"></p>
+    </div>
+
+</div>
+
+<div class="rulesPage" >
+    <img src="../source/规则界面背景.jpg" />
+    <img id="myRule" src="../source/规则.jpg" height="1327" width="1379"/>
+    <button id="ret">返回</button>
+</div>
+<div class="awardPage">
+
+    <img src="../source/兑奖.jpg" />
+    <button id="backToResult">返回</button>
+    <div class="awardName1">
+        <button id="award1">状元插金花</button>
+        <button id="award2">六杯红</button>
+        <button id="award3">六杯黑</button>
+        <button id="award4">五王</button>
+        <button id="award5">五子带一秀</button>
+        <button id="award6">五子登科</button>
+        <button id="award7">状元</button>
+        <button id="award8">对堂</button>
+        <button id="award9">三红</button>
+        <button id="award10">四进</button>
+        <button id="award11">二举</button>
+        <button id="award12">一秀</button>
+    </div>
+    <div class="award2">
+        <p id="aw1"></p>
+        <p id="aw2"></p>
+        <p id="aw3"></p>
+        <p id="aw4"></p>
+        <p id="aw5"></p>
+        <p id="aw6"></p>
+        <p id="aw7"></p>
+        <p id="aw8"></p>
+        <p id="aw9"></p>
+        <p id="aw10"></p>
+        <p id="aw11"></p>
+        <p id="aw12"></p>
+
+    </div>
+    <div class="presentnum2">
+        <p  id="n21"></p>
+        <p  id="n22"></p>
+        <p  id="n23"></p>
+        <p  id="n24"></p>
+        <p  id="n25"></p>
+        <p  id="n26"></p>
+        <p  id="n27"></p>
+        <p  id="n28"></p>
+        <p  id="n29"></p>
+        <p  id="n210"></p>
+        <p  id="n211"></p>
+        <p  id="n212"></p>
+    </div>
+
+</div>
+</body>
+</html>
